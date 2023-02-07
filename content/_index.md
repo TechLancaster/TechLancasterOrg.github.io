@@ -1,0 +1,3 @@
+TechLancaster started as a simple local meetup, a safe place for like-minded tech people to come together and geek out. We've strived to be open, welcoming, and supportive to everyone in the community, regardless of their interest or background.
+
+These past years have seen amazing growth in Lancaster's tech scene, and we believe this is only the beginning. As members of the tech community, we want to support this growth and ensure the community remains a healthy, open, and welcoming place for all its current and future members.
