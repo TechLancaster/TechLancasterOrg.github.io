@@ -1,0 +1,19 @@
+/* do the little wiggle on the join email and slack */
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+.animate-wiggle {
+  animation-name: wiggle;
+  animation-duration: 0.15s;
+  animation-timing-function: linear;
+  animation-iteration-count: 2;
+  animation-delay: 3s; /* Set the delay to 3 seconds */
+}

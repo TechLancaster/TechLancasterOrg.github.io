@@ -1,3 +1,6 @@
 baseURL = 'https://techlancaster.com'
 languageCode = 'en-us'
 title = 'Tech Lancaster'
+
+[params]
+signup = "https://docs.google.com/forms/d/e/1FAIpQLSdYFrCzo-GXwYyJjMAlpWa87MwQnXpSIN6tJCJvirEhHZy9vw/viewform"

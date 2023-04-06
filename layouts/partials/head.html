@@ -1,10 +1,13 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    {{ $css := resources.Get "css/main.css" }}
-    {{ $style := $css | resources.PostCSS }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{ $css := resources.Get "css/main.css" }} {{ $style := $css |
+  resources.PostCSS }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
-    <title>{{.Site.Title}}</title>
+  {{ $customCSS := resources.Get "css/custom.css" }}
+  <link rel="stylesheet" href="{{ $customCSS.Permalink }}" />
+
+  <title>{{.Site.Title}}</title>
 </head>
