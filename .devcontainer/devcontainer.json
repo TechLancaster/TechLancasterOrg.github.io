@@ -1,0 +1,9 @@
+{
+    "name": "Hugo Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [1313],
+    "postCreateCommand": "npm install",
+    "extensions": [
+        "budparr.language-hugo-vscode"
+    ]
+}
