@@ -9,6 +9,9 @@ module.exports = {
       animation: {
         bounce: "bounce 1s infinite",
       },
+      screens: {
+        "xs": "420px",
+      },
     },
   },
   variants: {

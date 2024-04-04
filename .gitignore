@@ -13,4 +13,5 @@ hugo.linux
 /.hugo_build.lock
 
 # Etc.
+.DS_Store
 /node_modules/

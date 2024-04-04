@@ -10,10 +10,12 @@
   }
 }
 
-.animate-wiggle {
-  animation-name: wiggle;
-  animation-duration: 0.15s;
-  animation-timing-function: linear;
-  animation-iteration-count: 2;
-  animation-delay: 3s; /* Set the delay to 3 seconds */
+@media (prefers-reduced-motion: no-preference) {
+  .animate-wiggle {
+    animation-name: wiggle;
+    animation-duration: 0.15s;
+    animation-timing-function: linear;
+    animation-iteration-count: 2;
+    animation-delay: 3s; /* Set the delay to 3 seconds */
+  }
 }
