@@ -10,15 +10,15 @@ https://gohugo.io/installation/
 
 ```
 brew install hugo
-npm install postcss-cli
 ```
 
 ### Local Server
 
 ```
 hugo server -D
-# http://localhost:1313/
 ```
+
+Visit http://localhost:1313/ to view your local version of the site.
 
 ### Deploy
 
