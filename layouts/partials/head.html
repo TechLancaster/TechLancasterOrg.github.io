@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   {{ $css := resources.Get "css/main.css" }} {{ $style := $css |
-  resources.PostCSS }}
+  css.PostCSS }}
   <link rel="stylesheet" href="{{ $style.Permalink }}" />
 
   {{ $customCSS := resources.Get "css/custom.css" }}
