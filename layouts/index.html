@@ -183,7 +183,7 @@
   <!-- START OTHER MEETUPS -->
   <div
     id="other-meetups"
-    class="relative bg-sky-400 px-4 pt-40 pb-32 lg:pt-48 lg:pb-40"
+    class="relative bg-sky-400 px-4 pt-40 lg:pt-48"
   >
     <h2
       class="text-center text-2xl sm:text-4xl text-sky-800 leading-tight font-extrabold tracking-tight"
@@ -242,6 +242,20 @@
         "buttonUrl" "https://www.pubstandards.us/"
       ) -}}
     </div>
+
+    <div class="pt-4 lg:pt-16 pb-24 flex justify-center">
+      <div class="p-4 rounded-3xl" style="background: #f0f4f9">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=MONTH&title&showTitle=0&src=Nmw3ZTgzMmVlOWJlbXQxaTljNDJ2bHRydWdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23C0CA33"
+            style="border-width:0"
+            width="800"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+            class="max-w-full mx-auto"
+          ></iframe>
+        </div>
+    </div>
   </div>
   <!-- END OTHER MEETUPS -->
 </div>
@@ -284,35 +298,34 @@
    * text-orange-900
    */
 
-  const lightColor = colors[Math.floor(Math.random() * colors.length)];
+  const color = colors[Math.floor(Math.random() * colors.length)];
   document
     .querySelectorAll(".fill-sky-100")
     .forEach(el =>
-      el.classList.replace("fill-sky-100", `fill-${lightColor}-100`)
+      el.classList.replace("fill-sky-100", `fill-${color}-100`)
     );
   document
     .querySelector("#tech-lancaster-meetup.bg-sky-100")
-    .classList.replace("bg-sky-100", `bg-${lightColor}-100`);
+    .classList.replace("bg-sky-100", `bg-${color}-100`);
   document
     .querySelector("#tech-lancaster-meetup .text-sky-900")
-    .classList.replace("text-sky-900", `text-${lightColor}-900`);
+    .classList.replace("text-sky-900", `text-${color}-900`);
   document
     .querySelectorAll("#tech-lancaster-meetup .text-sky-800")
     .forEach(el =>
-      el.classList.replace("text-sky-800", `text-${lightColor}-800`)
+      el.classList.replace("text-sky-800", `text-${color}-800`)
     );
   document
     .querySelectorAll("#tech-lancaster-meetup .text-sky-500")
     .forEach(el =>
-      el.classList.replace("text-sky-500", `text-${lightColor}-500`)
+      el.classList.replace("text-sky-500", `text-${color}-500`)
     );
 
-  const darkColor = colors[Math.floor(Math.random() * colors.length)];
   document
     .querySelector("#other-meetups.bg-sky-400")
-    .classList.replace("bg-sky-400", `bg-${darkColor}-400`);
+    .classList.replace("bg-sky-400", `bg-${color}-400`);
   document
     .querySelector("#other-meetups .text-sky-800")
-    .classList.replace("text-sky-800", `text-${darkColor}-800`);
+    .classList.replace("text-sky-800", `text-${color}-800`);
 </script>
 {{ end }}
