@@ -10,6 +10,7 @@ https://gohugo.io/installation/
 
 ```
 brew install hugo
+npm i postcss
 ```
 
 ### Local Server

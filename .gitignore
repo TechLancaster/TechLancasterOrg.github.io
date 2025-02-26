@@ -15,3 +15,5 @@ hugo.linux
 # Etc.
 .DS_Store
 /node_modules/
+
+repomix-output.txt
