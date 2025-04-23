@@ -1,3 +1,7 @@
+## View Site
+
+[https://techlancaster.org/](https://techlancaster.org/)
+
 ## Local Dev
 
 This website is a based on a static site generater called [Hugo](https://gohugo.io/)
